@@ -1,0 +1,40 @@
+/* Estilo básico para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Container principal */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+/* Estilo dos links */
+.links a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.links a:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+/* Área de conteúdo dinâmico */
+#conteudo {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid black;
+}
